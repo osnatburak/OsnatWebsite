@@ -14,7 +14,7 @@ body {
 
 header {
     padding: 20px 0;
-    background-color: rgba(30, 144, 255, 0.8); /* צבע כחול עם שקיפות */
+    background-color: rgba(255, 105, 180, 0.8); /* צבע ורוד עם שקיפות */
 }
 
 header h1 {
@@ -42,9 +42,15 @@ main p {
 }
 
 main img {
-    max-width: 50%; /* גודל חצי מהגודל המקורי */
+    max-width: 100%;
     height: auto;
     margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+    main img {
+        max-width: 50%; /* גודל חצי מהגודל המקורי על מסכים גדולים יותר */
+    }
 }
 
 form {
@@ -70,7 +76,7 @@ form input {
 form button {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #1E90FF; /* צבע כחול יפה */
+    background-color: #FF1493; /* צבע ורוד יפה */
     color: white;
     border: none;
     cursor: pointer;
@@ -78,11 +84,15 @@ form button {
 }
 
 form button:hover {
-    background-color: #1C86EE; /* גוון כהה יותר של כחול */
+    background-color: #FF69B4; /* גוון כהה יותר של ורוד */
+}
+
+button {
+    font-family: 'Rubik', sans-serif; /* הגדרת הפונט לכל הכפתורים */
 }
 
 footer {
-    background-color: rgba(241, 241, 241, 0.8); /* צבע רקע בהיר עם שקיפות */
+    background-color: rgba(255, 105, 180, 0.8); /* צבע רקע ורוד עם שקיפות */
     padding: 10px 0;
     margin-top: 20px;
 }

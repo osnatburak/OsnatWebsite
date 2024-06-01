@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    direction: rtl;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1E90FF; /* צבע כחול יפה */
     color: white;
     padding: 20px 0;
 }
@@ -64,14 +67,14 @@ form input {
 form button {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #4CAF50;
+    background-color: #1E90FF; /* צבע כחול יפה */
     color: white;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #1C86EE; /* גוון כהה יותר של כחול */
 }
 
 footer {

@@ -40,7 +40,7 @@ main p {
 }
 
 main img {
-    max-width: 100%;
+    max-width: 50%; /* גודל חצי מהגודל המקורי */
     height: auto;
     margin: 20px 0;
 }

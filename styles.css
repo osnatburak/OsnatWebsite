@@ -7,12 +7,14 @@ body {
     box-sizing: border-box;
     text-align: center;
     direction: rtl;
+    background: url('background.gif') no-repeat center center fixed; 
+    background-size: cover;
+    color: white; /* שינוי הצבע של הטקסט ללבן כדי להתאים לרקע הכהה */
 }
 
 header {
-    background-color: #1E90FF; /* צבע כחול יפה */
-    color: white;
     padding: 20px 0;
+    background-color: rgba(30, 144, 255, 0.8); /* צבע כחול עם שקיפות */
 }
 
 header h1 {
@@ -31,12 +33,12 @@ main {
 
 main h2 {
     font-size: 2em;
-    color: #333;
+    color: #fff; /* צבע לבן */
 }
 
 main p {
     font-size: 1.1em;
-    color: #666;
+    color: #ddd; /* צבע לבן בהיר */
 }
 
 main img {
@@ -54,6 +56,7 @@ form {
 
 form label {
     font-size: 1em;
+    color: #fff; /* צבע לבן */
 }
 
 form input {
@@ -71,6 +74,7 @@ form button {
     color: white;
     border: none;
     cursor: pointer;
+    font-family: 'Rubik', sans-serif; /* הגדרת הפונט לכפתור */
 }
 
 form button:hover {
@@ -78,12 +82,12 @@ form button:hover {
 }
 
 footer {
-    background-color: #f1f1f1;
+    background-color: rgba(241, 241, 241, 0.8); /* צבע רקע בהיר עם שקיפות */
     padding: 10px 0;
     margin-top: 20px;
 }
 
 footer p {
     margin: 0;
-    color: #777;
+    color: #fff; /* צבע לבן */
 }
